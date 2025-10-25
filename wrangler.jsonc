@@ -1,7 +1,11 @@
 {
   "name": "tool-greedy-split",
   "compatibility_date": "2025-10-25",
-  "assets": {
-    "directory": "./dist"
-  }
+  "main": "./.cloudflare/worker.js",
+  "site": {
+    "bucket": "./.cloudflare/public"
+  },
+  "build": {
+    "command": "npm run build"
+  },
 }
