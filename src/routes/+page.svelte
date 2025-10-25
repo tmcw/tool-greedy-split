@@ -125,7 +125,11 @@ Ted: $57`);
 
 <h1>Greedy split</h1>
 
-<p>Simplified implementation of the required math to settle up debts.</p>
+<p>
+  Simplified implementation of the required math to settle up debts. This
+  accepts a syntax in which each line is a person's name, a :, and a dollar
+  amount. Like <code>Bob: $10</code>
+</p>
 
 <textarea bind:value={freetext}></textarea>
 
