@@ -1,0 +1,11 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+  max-width: 720px;
+}
+
+textarea {
+  font-family: inherit;
+  width: 100%;
+  font-size: inherit;
+  min-height: 100px;
+}
