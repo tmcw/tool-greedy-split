@@ -2,8 +2,8 @@
   "name": "tool-greedy-split",
   "compatibility_date": "2025-10-25",
   "main": "./.cloudflare/worker.js",
-  "site": {
-    "bucket": "./.cloudflare/public"
+  "assets": {
+    "directory": ".cloudflare/public"
   },
   "build": {
     "command": "npm run build"
